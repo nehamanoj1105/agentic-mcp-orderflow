@@ -1,0 +1,20 @@
+{
+  "experiment": "exp6_drift",
+  "reference_samples": 500,
+  "drifted_samples": 500,
+  "overall_feature_drift": "DETECTED",
+  "drift_audit_details": {
+    "obi_lvl_1": {
+      "psi": 4.2616,
+      "ks_stat": 0.58,
+      "ks_p_value": 0.0,
+      "drift_status": "DETECTED"
+    },
+    "realized_vol_30": {
+      "psi": 15.7266,
+      "ks_stat": 0.694,
+      "ks_p_value": 0.0,
+      "drift_status": "DETECTED"
+    }
+  }
+}

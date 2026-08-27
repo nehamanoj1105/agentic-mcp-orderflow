@@ -1,0 +1,26 @@
+{
+  "experiment": "exp3_ewma_impact",
+  "target": "target_return_5",
+  "ewma_decay_comparison": [
+    {
+      "feature": "ewma_obi_alpha_0.2",
+      "spearman_ic": 0.1001212370470037,
+      "pearson_corr": 0.11093861362573507
+    },
+    {
+      "feature": "ewma_obi_alpha_0.1",
+      "spearman_ic": 0.07402560879001585,
+      "pearson_corr": 0.09533029610525995
+    },
+    {
+      "feature": "ewma_obi_alpha_0.05",
+      "spearman_ic": 0.06340664769979179,
+      "pearson_corr": 0.07613190572796304
+    },
+    {
+      "feature": "ewma_obi_alpha_0.01",
+      "spearman_ic": -0.003676207569940534,
+      "pearson_corr": -0.00494310608826236
+    }
+  ]
+}
