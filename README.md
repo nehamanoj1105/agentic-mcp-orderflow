@@ -1,7 +1,6 @@
 # Agentic Market Microstructure Research & ML Monitoring System
 
-> **A Rigorous AI/ML Quantitative Research & Real-Time Monitoring Pipeline for High-Frequency Trading Systems.**
-> *Designed for Quantitative Trading & ML Engineering (Targeted for firms such as Tower Research Capital, Citadel Securities, Jump Trading, HRT).*
+> **A Rigorous AI/ML Quantitative Research & Real-Time Monitoring Pipeline.**
 
 ---
 
