@@ -1,0 +1,71 @@
+{
+  "experiment": "exp1_order_flow",
+  "sample_size": 1940,
+  "target": "target_return_5",
+  "top_features_by_ic": [
+    {
+      "feature": "microprice_dev",
+      "spearman_ic": 0.164149220812039,
+      "pearson_corr": 0.15886113893720227,
+      "mutual_info": 0.10043268064165911
+    },
+    {
+      "feature": "obi_lvl_1",
+      "spearman_ic": 0.16099060682258998,
+      "pearson_corr": 0.14029036628058342,
+      "mutual_info": 0.011923380116702909
+    },
+    {
+      "feature": "obi_lvl_10",
+      "spearman_ic": 0.15628876103492112,
+      "pearson_corr": 0.13765340181416702,
+      "mutual_info": 0.03589460641225539
+    },
+    {
+      "feature": "depth_imbalance",
+      "spearman_ic": 0.15628876103492112,
+      "pearson_corr": 0.13765340181416702,
+      "mutual_info": 0.03589460641225539
+    },
+    {
+      "feature": "obi_lvl_5",
+      "spearman_ic": 0.15495826881849276,
+      "pearson_corr": 0.13536770197565318,
+      "mutual_info": 0.041321127749530895
+    },
+    {
+      "feature": "obi_lvl_3",
+      "spearman_ic": 0.15424059263651246,
+      "pearson_corr": 0.13418530374269388,
+      "mutual_info": 0.021601612901631206
+    },
+    {
+      "feature": "obi_1_roll_zscore_60",
+      "spearman_ic": 0.14498260128028423,
+      "pearson_corr": 0.1342558774729865,
+      "mutual_info": 0.021834642546070704
+    },
+    {
+      "feature": "obi_1_roll_zscore_30",
+      "spearman_ic": 0.13997843909567995,
+      "pearson_corr": 0.12233234375135485,
+      "mutual_info": 0.05661521816666504
+    },
+    {
+      "feature": "obi_1_roll_zscore_10",
+      "spearman_ic": 0.13720554543888644,
+      "pearson_corr": 0.10172588770332494,
+      "mutual_info": 0.016304086776639082
+    },
+    {
+      "feature": "micro_dev_roll_zscore_60",
+      "spearman_ic": 0.13460471400122845,
+      "pearson_corr": 0.11390614524676582,
+      "mutual_info": 0.05958944445009973
+    }
+  ],
+  "plots_saved": [
+    "experiments/plots\\correlation_matrix.png",
+    "experiments/plots\\feat_vs_target_obi_lvl_1.png"
+  ]
+}

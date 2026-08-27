@@ -1,0 +1,53 @@
+{
+  "experiment": "exp2_model_benchmark",
+  "sample_size_train": 1455,
+  "sample_size_test": 485,
+  "target": "target_class_5",
+  "benchmark_summary": [
+    {
+      "model_name": "LogisticRegression",
+      "accuracy": 0.688659793814433,
+      "precision": 0.5583970853426082,
+      "recall": 0.688659793814433,
+      "f1_score": 0.6167125455550986,
+      "roc_auc": 0.6697462956119161,
+      "log_loss": 0.956124553282996
+    },
+    {
+      "model_name": "RandomForest",
+      "accuracy": 0.6969072164948453,
+      "precision": 0.6616499285825297,
+      "recall": 0.6969072164948453,
+      "f1_score": 0.6491026221360201,
+      "roc_auc": 0.7433264528018766,
+      "log_loss": 0.7358464745852363
+    },
+    {
+      "model_name": "XGBoost",
+      "accuracy": 0.6865979381443299,
+      "precision": 0.6220202568276361,
+      "recall": 0.6865979381443299,
+      "f1_score": 0.6218005715915713,
+      "roc_auc": 0.6865460596901963,
+      "log_loss": 0.8411626219749451
+    },
+    {
+      "model_name": "LightGBM",
+      "accuracy": 0.6701030927835051,
+      "precision": 0.5926114174591758,
+      "recall": 0.6701030927835051,
+      "f1_score": 0.6094154372415602,
+      "roc_auc": 0.6737677039700332,
+      "log_loss": 0.8985944064559857
+    },
+    {
+      "model_name": "NeuralNetwork",
+      "accuracy": 0.6948453608247422,
+      "precision": 0.667164820546929,
+      "recall": 0.6948453608247422,
+      "f1_score": 0.6299208243442023,
+      "roc_auc": 0.6812821147706035,
+      "log_loss": 0.990578293800354
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: market-agent-deployment
+  labels:
+    app: market-agent
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: market-agent
+  template:
+    metadata:
+      labels:
+        app: market-agent
+    spec:
+      containers:
+      - name: agent-orchestrator
+        image: market-microstructure-system:latest
+        command: ["python", "-c", "from agents.orchestrator import AgentOrchestrator; print('Agent Orchestrator Ready')"]
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "200m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
